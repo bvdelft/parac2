@@ -1,0 +1,6 @@
+public class BidLocks {
+
+	public lock AuctionClosed;
+	public lock DetermineWinner;
+
+}

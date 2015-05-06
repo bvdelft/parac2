@@ -1,0 +1,6 @@
+public class Bar <policy p> extends java.util.List<p>
+{
+  final ?p Bar<p> x;
+  public void bar(Bar<p> b)
+  ;
+}

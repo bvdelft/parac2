@@ -1,0 +1,6 @@
+public class C
+{
+  int[] myArray;
+  int foo()
+  ;
+}

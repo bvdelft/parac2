@@ -1,0 +1,6 @@
+public class Circles
+{
+  public final java.lang.Object alice = new java.lang.Object();
+  public final policy p = {alice:};
+  public final ?p java.lang.String aliceString;
+}

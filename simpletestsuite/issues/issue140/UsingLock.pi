@@ -1,0 +1,4 @@
+public class UsingLock
+{
+  public final policy pol = {(java.lang.Object y) java.lang.Object x: DefineLock.MyLock(x,y)};
+}

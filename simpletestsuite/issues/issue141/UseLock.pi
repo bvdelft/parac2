@@ -1,0 +1,14 @@
+public class UseLock
+{
+  public static final java.lang.Object alice = new java.lang.Object();
+  public static final java.lang.Object bob = new java.lang.Object();
+  public static final policy polA = {java.lang.Object x: DefineLock.MyLock(x,alice)};
+  public static final policy polB = {java.lang.Object x: DefineLock.MyLock(alice,x)};
+  public void foo()
+  ;
+  public lock L(java.lang.Object, java.lang.Object) {(java.lang.Object x,java.lang.Object y) UseLock.L(x,y): UseLock.L(y,x)};
+  public static final policy myPolA = {java.lang.Object x: UseLock.L(x,alice)};
+  public static final policy myPolB = {java.lang.Object x: UseLock.L(alice,x)};
+  public void bar()
+  ;
+}

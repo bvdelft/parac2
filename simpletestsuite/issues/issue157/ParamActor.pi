@@ -1,0 +1,6 @@
+public class ParamActor <actor java.lang.Object a>
+{
+  public lock L(java.lang.Object);
+  public void foo()
+  ;
+}

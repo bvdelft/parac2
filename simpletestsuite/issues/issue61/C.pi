@@ -1,0 +1,8 @@
+public class C
+{
+  public final policy cpol = {java.lang.Object x:};
+  public ?cpol int y;
+  public C ()
+  {
+  }
+}

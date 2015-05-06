@@ -1,0 +1,7 @@
+public class Panics
+{
+  public final java.lang.Object id = new java.lang.Object();
+  public final policy p = {id:};
+  void foo()
+  ;
+}

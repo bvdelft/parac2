@@ -1,0 +1,7 @@
+public class TM
+{
+  public static typemethod policy pol(java.lang.Object a)
+  {
+    return {a:};
+  }
+}

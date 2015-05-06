@@ -1,0 +1,9 @@
+public class TypeMethod
+{
+  public typemethod policy foo(java.lang.Object a)
+  {
+    return {a:};
+  }
+  public static final java.lang.Object alice = new java.lang.Object();
+  public ?foo(alice) int x;
+}

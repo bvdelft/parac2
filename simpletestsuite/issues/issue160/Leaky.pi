@@ -1,0 +1,12 @@
+public class Leaky
+{
+  public static final java.lang.Object observer = new java.lang.Object();
+  public static final policy low = {observer:};
+  public static final policy high = {:};
+  ?Leaky.low boolean lowData;
+  ?Leaky.high boolean highData;
+  public void leakStuff(?Leaky.high boolean b) throws java.lang.Exception
+  ;
+  !Leaky.low public void abuseLeak()
+  ;
+}

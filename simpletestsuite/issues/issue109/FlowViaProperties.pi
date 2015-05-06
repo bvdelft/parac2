@@ -1,0 +1,11 @@
+public class FlowViaProperties
+{
+  public static final policy bottom = {java.lang.Object x:};
+  public static ?FlowViaProperties.bottom lock A;
+  public static ?FlowViaProperties.bottom lock B {() FlowViaProperties.B: FlowViaProperties.A};
+  public static final policy secret = {java.lang.Object x: FlowViaProperties.B};
+  ?FlowViaProperties.bottom int pub;
+  ?FlowViaProperties.secret int sec;
+  -(FlowViaProperties.A) !FlowViaProperties.bottom public void something()
+  ;
+}

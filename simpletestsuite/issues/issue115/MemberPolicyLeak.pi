@@ -1,0 +1,16 @@
+public class MemberPolicyLeak
+{
+  public static ?MemberPolicyLeak.pub int globalLeak = 0;
+  public ?MemberPolicyLeak.pub int dataInSecObj;
+  public static final policy pub = {java.lang.Object x:};
+  public static final policy sec = {:};
+  public MemberPolicyLeak (?MemberPolicyLeak.pub int data)
+  {
+  }
+  public !MemberPolicyLeak.pub void doLeak()
+  ;
+  public !MemberPolicyLeak.pub int getDataInSecObj()
+  ;
+  public static !MemberPolicyLeak.pub ?MemberPolicyLeak.pub boolean leakit(?MemberPolicyLeak.sec boolean secretBool)
+  ;
+}

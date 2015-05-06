@@ -1,0 +1,8 @@
+public class ElemDefPol
+{
+  public final java.lang.Object a = new java.lang.Object();
+  public void moo(?{a:} byte[]<{a:}> data)
+  ;
+  public void foo()
+  ;
+}

@@ -1,0 +1,12 @@
+public class Channel <policy p, actor Bidder b>
+{
+  public Channel ()
+  {
+  }
+  public ?p int get() throws !{Object x:} NoBidException
+  ;
+  public void put(?{b:} int winBid)
+  ;
+  public void put(?{b:} java.lang.String data)
+  ;
+}

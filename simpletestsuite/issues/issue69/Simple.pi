@@ -1,0 +1,7 @@
+public class Simple
+{
+  public !policyof(val) void myFunc(Simple val) throws !policyof(val) java.lang.Exception
+  ;
+  public static !{java.lang.Object x:} void myMethod(Simple a, Simple b) throws !policyof(b) java.lang.Exception
+  ;
+}

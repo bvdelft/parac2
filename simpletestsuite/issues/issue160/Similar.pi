@@ -1,0 +1,9 @@
+public class Similar
+{
+  ?{:} boolean high = true;
+  ?{java.lang.Object x:} boolean low = true;
+  public void m() throws !{java.lang.Object x:} java.lang.Exception
+  ;
+  !{java.lang.Object x:} public void n()
+  ;
+}

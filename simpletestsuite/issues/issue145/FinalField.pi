@@ -1,0 +1,7 @@
+public class FinalField
+{
+  private final ?{java.lang.Object x:} java.lang.String finalString;
+  public FinalField (?{java.lang.Object x:} java.lang.String s)
+  {
+  }
+}

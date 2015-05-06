@@ -1,0 +1,17 @@
+/**
+ * The paragon compiler does not handle circular imports, so we need to shortcut
+ * this.
+ **/
+public class LockCirc {
+
+    public reflexive transitive lock Flow(Object, Object);
+
+    // The reflexive and transitive property of the lock could also be modelled 
+    // explicitly:
+    /*
+    public lock Flow(Object, Object))  
+      { (Object x, Object y) Flow(x,y) : Flow (x, z), Flow(z,y)
+      ; (Object x) Flow(x,x) :
+      };
+    */
+}

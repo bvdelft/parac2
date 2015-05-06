@@ -1,0 +1,4 @@
+public class DefineLock
+{
+    public lock MyLock(Object, Object) {(Object x, Object y) DefineLock.MyLock(x,y): DefineLock.MyLock(y,x)};
+}

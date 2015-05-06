@@ -1,0 +1,7 @@
+public class ParamMethod
+{
+  public <actor java.lang.Object a> void foo()
+  ;
+  public void bar()
+  ;
+}

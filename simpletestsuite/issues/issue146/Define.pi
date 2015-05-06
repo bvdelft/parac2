@@ -1,0 +1,6 @@
+public class Define
+{
+  public static final java.lang.Object alice = new java.lang.Object();
+  public static final policy toAlice = {alice:};
+  public static final ?Define.toAlice java.lang.Object aData = alice;
+}

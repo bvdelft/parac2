@@ -1,0 +1,4 @@
+public class UsesSecond
+{
+  public ?Uses.earlPol int x = 2;
+}

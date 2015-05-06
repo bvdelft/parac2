@@ -1,0 +1,4 @@
+public class D
+{
+  private C<{java.lang.Object x:}> c = new C<{java.lang.Object x:}>();
+}

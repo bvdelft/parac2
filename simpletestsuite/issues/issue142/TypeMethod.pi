@@ -1,0 +1,11 @@
+public class TypeMethod
+{
+  public lock Flow(java.lang.Object, java.lang.Object);
+  public static typemethod policy pol(java.lang.Object a)
+  {
+    return {java.lang.Object x: TypeMethod.Flow(a,x)};
+  }
+  final java.lang.Object alice = new java.lang.Object();
+  public void test()
+  ;
+}

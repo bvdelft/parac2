@@ -1,0 +1,6 @@
+public class ParamStat <policy q>
+{
+  public static final policy p = {java.lang.Object x:};
+  public void foo()
+  ;
+}

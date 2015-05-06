@@ -1,0 +1,6 @@
+public class Test
+{
+  private ?{java.lang.Object y:} java.lang.Object y;
+  !{java.lang.Object x:} public void foo()
+  ;
+}

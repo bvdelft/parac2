@@ -1,0 +1,4 @@
+public class Defining
+{
+  public javax.crypto.SecretKey i;
+}

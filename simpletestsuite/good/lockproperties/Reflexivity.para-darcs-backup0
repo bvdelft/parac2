@@ -1,0 +1,16 @@
+public class Reflexivity {
+   
+   lock A(a,b) {A('y,'y) : };
+   
+   public static final actor alice;
+   
+   void foo() {
+   
+     ?{alice : } int a;
+     ?{'x : A(alice,'x)} int b;
+     
+     a = b;
+   
+   }
+   
+}

@@ -1,0 +1,5 @@
+public class NoConstructor
+{
+  public void foo()
+  ;
+}

@@ -1,0 +1,12 @@
+public class LockProperties
+{
+  public lock L(java.lang.Object, java.lang.Object) {(java.lang.Object x,java.lang.Object y,java.lang.Object z) LockProperties.L(x,y): LockProperties.L(x,z),LockProperties.L(z,y)};
+  public transitive lock M(java.lang.Object, java.lang.Object);
+  public static final java.lang.Object alice = new java.lang.Object();
+  public static final java.lang.Object bob = new java.lang.Object();
+  public static final java.lang.Object charlie = new java.lang.Object();
+  public void fooL()
+  ;
+  public void fooM()
+  ;
+}

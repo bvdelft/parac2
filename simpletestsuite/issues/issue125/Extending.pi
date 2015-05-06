@@ -1,0 +1,5 @@
+public class Extending extends java.lang.Exception
+{
+  public static void foo()
+  ;
+}

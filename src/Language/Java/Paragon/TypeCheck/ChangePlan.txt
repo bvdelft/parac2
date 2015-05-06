@@ -1,0 +1,56 @@
+======================================
+==  A: Include flowlocks-framework  ==
+======================================
+
+1) Cabal file: depend on flowlocks-framework.
+
+2) TypeCheck.Locks - move to Policies.Locks
+   - Remove everything except the LockVar 
+     (must be skolemized if needed)
+
+3) TypeCheck.Actor - move to Policies.ActorId 
+   - instantiate FlowLocks.ActorId
+   - Split ActorTPVar into a separate level
+
+4) TypeCheck.Policy - remove (what about Pretty?)
+
+======================================
+== B: Objects as actors in Paragon1 ==
+======================================
+
+1) Lexer - remove 'x var syntax
+
+2) Syntax
+   - Remove primitive Actor type
+   - Update Policy literals etc.
+
+3) Parser - Change syntax of literal policies
+
+4) Pretty - Reflect syntax change
+
+5) Update CodeState, TypeMap, CodeEnv etc
+   - Actors are now object refs too
+
+6) Update TypeCheck and TcExp/TcStmt
+   - The whole updateStateType machinery needs
+     updating.
+
+======================================
+==    C: Restructure to Paragon2    ==
+======================================
+
+1) Get rid of TcExp, TcStmt, TypeCheck
+
+2) Split the whole type checking into separate stages:
+   - Basic type checking: Exp SrcLoc -> Exp Type (retained until compilation)
+
+   - Singleton type tags: Exp Type -> Exp ValType (+env)
+     i. ActorId evaluation
+     ii. Policy evaluation
+     iii. Modifier evaluation
+     iv. Gather signatures
+
+   - Policy checking
+     i. Lockstate analysis: Exp ValType -> Exp (ValType, LS)
+     ii. Policy constraint generation: Exp (ValType, LS) -> [Constraint]
+     iii. Constraint solving

@@ -1,0 +1,4 @@
+public class Uses
+{
+  public static final policy earlPol = {Defines.earl:};
+}

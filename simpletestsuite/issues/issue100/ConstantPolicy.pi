@@ -1,0 +1,9 @@
+public class ConstantPolicy
+{
+  public !policyof(i) void m(int i)
+  ;
+  public void foo()
+  ;
+  public void bar()
+  ;
+}

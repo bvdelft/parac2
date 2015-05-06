@@ -1,0 +1,7 @@
+public class WriteException
+{
+  public static final java.lang.Object a = new java.lang.Object();
+  public static final policy pol = {a:};
+  public static !WriteException.pol void foo() throws !WriteException.pol java.lang.Exception
+  ;
+}

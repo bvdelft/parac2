@@ -1,0 +1,4 @@
+public class DefineLock
+{
+  public lock MyLock(java.lang.Object, java.lang.Object) {(java.lang.Object x,java.lang.Object y) DefineLock.MyLock(x,y): DefineLock.MyLock(y,x)};
+}
